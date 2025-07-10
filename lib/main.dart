@@ -38,7 +38,7 @@ class MyHomePage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Riverpod"),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
         actions: [
           Switch(
             onChanged: (_) {
