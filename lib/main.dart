@@ -6,7 +6,7 @@ import 'package:riverpod_app/provider/counter_provider.dart';
 import 'package:riverpod_app/provider/theme_provider.dart';
 
 void main() {
-  runApp(ProviderScope(child: const MyApp()));
+  runApp((child: const MyApp()));
 }
 
 class MyApp extends ConsumerWidget {
